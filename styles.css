@@ -220,17 +220,65 @@ progress::-webkit-progress-bar {
   padding-top: 55px;
   padding-left: 85px;
   padding-right: 60px;
-  height: 1100px;
-  background-color: rgb(22,22,22);
+  height: 510px;
 }
 
 .contact-head{
-  color: #e8751a;
+  color: #6807f9;
   font-size: 4rem;
   font-family: 'IBM Plex Mono', monospace;
   font-weight: bold;
-  padding-bottom: 30px;
+  padding-bottom: 5px;
 
+}
+
+
+
+.contact{
+  padding-top: 3%;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: bold;
+  color: #3e206d;
+}
+
+.social-media{
+  padding-top: 10px;
+  text-align: center;
+}
+
+.icon{
+  height: 50px;
+  width: 50px;
+  margin-right: 35px;
+  border-radius: 50%;
+
+}
+
+.icon:hover{
+  transition: 0.2s;
+  height: 80px;
+  width: 80px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+
+}
+
+.icon-sq{
+  height: 50px;
+  width: 50px;
+  margin-right: 35px;
+  border-radius: 16px;
+}
+.icon-sq:hover{
+  height: 80px;
+  width: 80px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  border-radius: 23px;
+  transition: 0.2s;
 }
 
 /* ----------------------------------------------------------------END OF SECTION 5---------------------------------------------------------------------------------------- */

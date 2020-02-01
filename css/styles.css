@@ -3,23 +3,40 @@ html {
   scroll-behavior: smooth;
 }
 
-/* body {
-  overflow: hidden; /* Hide scrollbars */
-
-
+.section-head{
+    /* color: #28544b; */
+    /* color: #081f37; */
+    /* color: #05445E; */
+    /* color: #6915cf; */
+    color: #6807f9;
+    font-size: 4rem;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
 /* --------------------------------------------------NAVBAR--------------------------------------------------- */
+
+#section-1{
+  padding-bottom: 250px;
+  height: auto;
+  background-color: rgb(22,22,22);
+  /* background-color: #6915cf; */
+  padding-bottom: 500px;
+}
+
 
 .navbar-default.scrolled{
   /* background: rgba(53, 117, 143); */
   background: rgb(240,240,240);
   padding-top: 10px;
   padding-bottom: 10px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  box-shadow: 0 2px 15px rgba(0,0,0,0.2);
 }
 
 .navbar-default{
 transition:800ms ease;
 background-color: rgb(22,22,22);
+/* background-color: #6915cf; */
 padding-top: 20px;
 padding-left:150px;  /* to make it center 200px*/
 padding-bottom: 20px;
@@ -71,45 +88,36 @@ padding-bottom: 20px;
 
 }
 
-#section-1{
-  padding-bottom: 250px;
-  height: 780px;
-  background-color: rgb(22,22,22);
-}
-/* ----------------------------------------------------------------END OF SECTION 1---------------------------------------------------------------------------------------- */
-/* ----------------------------------------------------------------ABOUT ME---------------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------END OF SECTION 1-------------------------------------------------------------------- */
+/* ----------------------------------------------------------------ABOUT ME-------------------------------------------------------------------------- */
 
 #Section-2{
   padding-top: 55px;
   padding-left: 85px;
   padding-right: 85px;
-  height: 780px;
+  padding-bottom: 200px;
+  height: auto;
   background-color: white;
 }
 
-.section-head{
-    /* color: #28544b; */
-    /* color: #081f37; */
-    /* color: #05445E; */
-    /* color: #6915cf; */
-    color: #6807f9;
-    font-size: 4rem;
-    font-family: 'IBM Plex Mono', monospace;
-    font-weight: bold;
-    padding-bottom: 30px;
-}
+
 
 .aboutme{
   padding-top: 30px;
   font-family: 'IBM Plex Mono', monospace;
-  color: black;
-
+  /* font-weight: 500; */
+  /* color: black; */
+  color: #3e206d;
+  font-size: 18px;
 
 }
-.abtme{box-shadow: 0px 4px 7px #777;}
+/* .abt{background-color: rgba(20, 20, 20, 0.04);
+border-radius: 30px;
+padding-left: 40px;} */
 
 strong{
-  font-size: 17px;
+  font-size: 19px;
 }
 .container-1{
   padding-top: 30px;
@@ -169,6 +177,15 @@ strong{
   background-color: rgba(20, 20, 20, 0.04);
   border-radius: 15px;
 }
+.prog-name{
+  font-size: 22px;
+}
+.about-course{
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: justify;
+  font-size: 17px;
+}
 
 .sub-section-2{
   padding-left: 20px;
@@ -220,17 +237,69 @@ progress::-webkit-progress-bar {
   padding-top: 55px;
   padding-left: 85px;
   padding-right: 60px;
-  height: 1100px;
-  background-color: rgb(22,22,22);
+  height: 600px;
 }
 
 .contact-head{
-  color: #e8751a;
+  color: #6807f9;
   font-size: 4rem;
   font-family: 'IBM Plex Mono', monospace;
   font-weight: bold;
-  padding-bottom: 30px;
+  padding-bottom: 5px;
 
+}
+
+
+
+.contact{
+  padding-top: 3%;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-bottom: 20px;
+  text-align: justify;
+  font-size: 30px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: bold;
+  color: #3e206d;
+}
+
+.seperator{
+  border-width:2px;
+  background: rgba(62,32,109,0.4);
+}
+.social-media{
+  padding-top: 10px;
+  text-align: center;
+}
+
+.icon{
+  height: 50px;
+  width: 50px;
+  margin-right: 35px;
+  border-radius: 50%;
+
+}
+
+.icon:hover{
+  transition: 0.2s;
+  height: 80px;
+  width: 80px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+
+}
+
+.icon-sq{
+  height: 50px;
+  width: 50px;
+  margin-right: 35px;
+  border-radius: 16px;
+}
+.icon-sq:hover{
+  height: 80px;
+  width: 80px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  border-radius: 23px;
+  transition: 0.2s;
 }
 
 /* ----------------------------------------------------------------END OF SECTION 5---------------------------------------------------------------------------------------- */
