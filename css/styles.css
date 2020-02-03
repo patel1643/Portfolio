@@ -17,6 +17,10 @@ html {
 /* --------------------------------------------------NAVBAR--------------------------------------------------- */
 
 #section-1{
+  /* background: url("https://wallpaperaccess.com/full/283918.jpg"); */
+  background: url("https://wallpaperaccess.com/full/631598.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   padding-bottom: 250px;
   height: auto;
   background-color: rgb(22,22,22);
@@ -27,6 +31,7 @@ html {
 
 .navbar-default.scrolled{
   /* background: rgba(53, 117, 143); */
+
   background: rgb(240,240,240);
   padding-top: 10px;
   padding-bottom: 10px;
@@ -35,7 +40,7 @@ html {
 
 .navbar-default{
 transition:800ms ease;
-background-color: rgb(22,22,22);
+/* background-color: rgb(22,22,22); */
 /* background-color: #6915cf; */
 padding-top: 20px;
 padding-left:150px;  /* to make it center 200px*/
