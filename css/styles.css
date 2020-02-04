@@ -18,12 +18,13 @@ html {
 
 #section-1{
   /* background: url("https://wallpaperaccess.com/full/283918.jpg"); */
-  background: url("https://wallpaperaccess.com/full/631598.jpg");
-  background-repeat: no-repeat;
+  /* background: url("https://wallpaperaccess.com/full/631598.jpg"); */
+  background-image : url("images/bg-001.jpg");
+  /* background-repeat: no-repeat; */
   background-size: cover;
   padding-bottom: 250px;
   height: auto;
-  background-color: rgb(22,22,22);
+  /* background-color: rgb(22,22,22); */
   /* background-color: #6915cf; */
   padding-bottom: 500px;
 }
@@ -103,7 +104,7 @@ padding-bottom: 20px;
   padding-right: 85px;
   padding-bottom: 200px;
   height: auto;
-  background-color: white;
+  /* background-color: white; */
 }
 
 
