@@ -148,9 +148,10 @@ strong{
 #Section-3{
   padding-top: 55px;
   padding-left: 85px;
-  height: 1100px;
+  height: auto;
   background: white;
   padding-right: 85px;
+  padding-bottom: 80px;
 }
 
 .download{
@@ -234,8 +235,9 @@ progress::-webkit-progress-bar {
   padding-top: 55px;
   padding-left: 85px;
   padding-right: 60px;
-  height: 1100px;
+  height: auto;
   background-color: white;
+  padding-bottom: 80px;
 }
 
 /* Rest of CSS Styles for this section is in projects.css file */
@@ -246,7 +248,8 @@ progress::-webkit-progress-bar {
   padding-top: 55px;
   padding-left: 85px;
   padding-right: 60px;
-  height: 600px;
+  height: auto;
+  padding-bottom: 150px;
 }
 
 .contact-head{
