@@ -11,22 +11,17 @@ html {
     color: #6807f9;
     font-size: 4rem;
     font-family: 'IBM Plex Mono', monospace;
-    font-weight: bold;
+    font-weight: 700;
     padding-bottom: 30px;
 }
 /* --------------------------------------------------NAVBAR--------------------------------------------------- */
 
 #section-1{
-  /* background: url("https://wallpaperaccess.com/full/283918.jpg"); */
-  /* background: url("https://wallpaperaccess.com/full/631598.jpg"); */
   background-image : url("images/bg-001.jpg");
-  /* background-repeat: no-repeat; */
+  background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 250px;
-  height: auto;
-  /* background-color: rgb(22,22,22); */
-  /* background-color: #6915cf; */
   padding-bottom: 500px;
+  height: auto;
 }
 
 
@@ -78,7 +73,9 @@ padding-bottom: 20px;
   font-weight: bold;
 }
 .a:hover{
-  color: #e8751a;
+  /* color: #e8751a; */
+  color: #ECEA3E;
+  color: fcdf03;
   font-size: 17.5px;
   transition: 0.3s;
   text-decoration: underline;
@@ -104,7 +101,7 @@ padding-bottom: 20px;
   padding-right: 85px;
   padding-bottom: 200px;
   height: auto;
-  background-color: white;
+  /* background-color: white; */
 }
 
 
@@ -169,6 +166,7 @@ strong{
 
 .sub-head{
   font-size: 2.65rem;
+  font-family: 'IBM Plex Mono', monospace;
   /* color: #189AB4; */
   color: #9852f9;
   padding-top: 10px;
@@ -185,6 +183,7 @@ strong{
 }
 .prog-name{
   font-size: 22px;
+  font-family: 'IBM Plex Mono', monospace;
 }
 .about-course{
   padding-left: 20px;
@@ -195,6 +194,7 @@ strong{
 
 .sub-section-2{
   padding-left: 20px;
+
 }
 
 .skill{
