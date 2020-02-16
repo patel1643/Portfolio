@@ -3,8 +3,6 @@
   padding-top: 100px;
   padding-left: 85px;
   font-family: 'IBM Plex Mono', monospace;
-
-
 }
 
 /* -----------------------------------------------Animation for first two lines------------------------------------------------------------------------------------ */
@@ -29,6 +27,7 @@
     overflow: hidden;
     transform: translateY(15%);
     /* box-shadow: 0 2px 15px rgba(0,0,0,0.2); */
+    background-color: inherit;
 
 
 
