@@ -370,25 +370,23 @@ progress::-webkit-progress-bar {
 }
 
 .icon:hover{
-  transition: 0.2s;
+  transition: 0.4s;
   height: 80px;
   width: 80px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.3);
 
 }
-
-.icon-sq{
-  height: 50px;
-  width: 50px;
+.icon-1{
+  height: 60px;
+  width: 60px;
   margin-right: 35px;
-  border-radius: 16px;
+  border-radius: 50%;
 }
-.icon-sq:hover{
+.icon-1:hover{
+  transition: 0.4s;
   height: 80px;
   width: 80px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-  border-radius: 23px;
-  transition: 0.2s;
 }
 
 /* ----------------------------------------------------------------END OF SECTION 5---------------------------------------------------------------------------------------- */
