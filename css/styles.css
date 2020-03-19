@@ -38,7 +38,9 @@ html {
   height: 100%;
 }
 
+nav{
 
+}
 .navbar-default.scrolled{
   /* background: rgba(53, 117, 143); */
 
@@ -51,15 +53,13 @@ html {
 .navbar-default{
 transition:800ms ease;
 background-color: rgb(9,5,6);
-/* background-color: #6915cf; */
 padding-top: 20px;
-padding-left:150px;  /* to make it center 200px*/
 padding-bottom: 20px;
 }
 
 .nav-item{
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 5em;
+  padding-right: 5em;
 
 }
 
@@ -73,13 +73,6 @@ padding-bottom: 20px;
 
 }
 
-.a-bar{
-  color: rgba(255,255,255,.75);
-  text-decoration: none;
-}
-.a-bar.scrolled{
-  color: black;
-}
 
 .a.scrolled{
   color: black;
@@ -104,6 +97,7 @@ padding-bottom: 20px;
   color: #05445E;
 
 }
+
 
 
 /* ----------------------------------------------------------------END OF SECTION 1-------------------------------------------------------------------- */
