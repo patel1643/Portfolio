@@ -69,3 +69,33 @@ padding-bottom: 20px;
   color: #05445E;
 
 }
+/* Navbar background color fade-in */
+@keyframes navbar-background-fade-in {
+  from {background-color: #000;}
+  to {background-color: #FFF;}
+}
+
+/* Navbar items color fade-in */
+@keyframes navbar-item-fade-in {
+  from {background-color: #FFF; fill: #FFF; }
+  to {background-color: #000; fill: #000;}
+}
+
+/* Overlay color changes */
+#overlay-menu .logo svg path {
+  animation-name: navbar-item-fade-in;
+  animation-duration: 0.25s;
+  animation-fill-mode: forwards;
+}
+
+#overlay-menu .close-menu span:before, #overlay-menu .close-menu span:after {
+  animation-name: navbar-item-fade-in;
+  animation-duration: 0.25s;
+  animation-fill-mode: forwards;
+}
+
+#overlay-menu .semplice-navbar {
+  animation-name: navbar-background-fade-in;
+  animation-duration: 0.25s;
+  animation-fill-mode: forwards;
+}
