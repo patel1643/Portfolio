@@ -16,12 +16,11 @@
     /* color: #ECEA3E; background*/
     /* color: #fcdf03; */
     color: #f2f01f;
-
-
-    width: 8em;
+    width: 8.5em;
     /* margin-bottom: 20px; */
     border-right: 0.5px solid rgba(255,255,255,.75);
-    font-size: 70px;
+    /* font-size: 70px; */
+    font-size: 4.375em;
     text-align: left;
     white-space: nowrap;
     overflow: hidden;
@@ -37,7 +36,7 @@
   top: 50%;
   width: 25em;
   border-right: 0.5px solid rgba(255,255,255,.75);
-  font-size: 25px;
+  font-size: 1.5625em;
   text-align: left;
   white-space: nowrap;
   overflow: hidden;
@@ -45,6 +44,7 @@
   color: grey;
   /* color: black; */
   /* rgba(255,255,255,.75); */
+  background-color: inherit;
 
 }
 
