@@ -15,3 +15,10 @@ $(document).ready(function () {
               $('.wrapper').html('<p>Sorry! Non webkit users. :(</p>');
           }
       });
+//
+// $(window).scroll(function(){
+// 	$('nav').toggleClass('scrolled', $(this).scrollTop() < 730);
+//   $('.a').toggleClass('scrolled', $(this).scrollTop() >730);
+// 	$('nav').toggleClass('navbar-dark',  $(this).scrollTop() < 730);
+//
+// });
