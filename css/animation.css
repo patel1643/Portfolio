@@ -12,7 +12,7 @@
     font-weight: bold;
     top: 80%;
     color: #f2f01f;
-    width: 8.3em;
+    width: 8.5em;
     /* margin-bottom: 20px; */
     border-right: 0.5px solid rgba(255,255,255,.75);
     /* font-size: 70px; */
@@ -20,8 +20,7 @@
     text-align: left;
     white-space: nowrap;
     overflow: hidden;
-    transform: translateY(15px);
-    /* box-shadow: 0 2px 15px rgba(0,0,0,0.2); */
+    transform: translateY(16px);
     background-color: inherit;
 
 
