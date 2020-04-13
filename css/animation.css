@@ -11,10 +11,6 @@
     position: relative;
     font-weight: bold;
     top: 80%;
-    /* color: #e8751a ; */
-    /* color: white; */
-    /* color: #ECEA3E; background*/
-    /* color: #fcdf03; */
     color: #f2f01f;
     width: 8.5em;
     /* margin-bottom: 20px; */
@@ -42,8 +38,6 @@
   overflow: hidden;
   transform: translateY(25px);
   color: grey;
-  /* color: black; */
-  /* rgba(255,255,255,.75); */
   background-color: inherit;
 
 }
@@ -60,7 +54,7 @@
 
 @keyframes typewriter-1{
   from{width: 0;}
-  to{width: 8.5em;}
+  to{width: 8.4em;}
 }
 @keyframes typewriter-2{
   from{width: 0;}
