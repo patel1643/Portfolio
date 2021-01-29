@@ -12,7 +12,7 @@
     font-weight: bold;
     top: 80%;
     color: #f2f01f;
-    width: 8.5em;
+    width: 18.7em;
     /* margin-bottom: 20px; */
     border-right: 0.5px solid rgba(255,255,255,.75);
     /* font-size: 70px; */
@@ -62,4 +62,12 @@
 @keyframes blinkTextCursor{
   from{border-right-color: rgba(255,255,255,.75);}
   to{border-right-color: transparent;}
+}
+
+
+
+@media(max-width:600px){
+  .line-1{
+    width: 8.7em;
+  }
 }
