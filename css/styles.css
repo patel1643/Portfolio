@@ -166,13 +166,12 @@ strong{
   opacity: 1;
   text-decoration: underline;
   transition: 0.3s;
-  drop
+  
 }
 
 .sub-head{
   font-size: 2.65rem;
   font-family: 'IBM Plex Mono', monospace;
-  /* color: #189AB4; */
   color: #9852f9;
   padding-top: 10px;
 }
@@ -213,14 +212,14 @@ strong{
 }
 .progress,                          /* Firefox  */
 .progress[role][aria-valuenow] {    /* Polyfill */
-	background: rgba(22, 22, 22, 0.1); !important; /* !important is needed by the polyfill */
+	background: rgba(22, 22, 22, 0.1) !important; /* !important is needed by the polyfill */
   box-shadow: 0 5px 10px rgba(0,0,0,0.2);
   width: auto;
 }
 
 /* Chrome */
 progress::-webkit-progress-bar {
-	background: rgba(22, 22, 22, 0.1); !important;
+	background: rgba(22, 22, 22, 0.1)!important;
 }
 .progress-bar {
 
